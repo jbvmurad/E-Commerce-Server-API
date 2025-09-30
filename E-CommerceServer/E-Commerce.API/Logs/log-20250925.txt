@@ -1,0 +1,202 @@
+2025-09-25 12:10:57.580 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 12:10:58.018 +04:00 [INF] Now listening on: https://localhost:64615
+2025-09-25 12:10:58.028 +04:00 [INF] Now listening on: http://localhost:64616
+2025-09-25 12:10:58.102 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 12:10:58.103 +04:00 [INF] Hosting environment: Development
+2025-09-25 12:10:58.103 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 12:10:58.313 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:10:58.313 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:10:58.366 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 67.6145ms
+2025-09-25 12:10:59.091 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 795.8211ms
+2025-09-25 12:10:59.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:10:59.234 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.0933ms
+2025-09-25 12:14:15.421 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 12:14:15.755 +04:00 [INF] Now listening on: https://localhost:54943
+2025-09-25 12:14:15.764 +04:00 [INF] Now listening on: http://localhost:54945
+2025-09-25 12:14:15.813 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 12:14:15.813 +04:00 [INF] Hosting environment: Development
+2025-09-25 12:14:15.813 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 12:14:16.022 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:14:16.022 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:14:16.051 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 36.9055ms
+2025-09-25 12:14:16.085 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.6779ms
+2025-09-25 12:14:16.120 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:14:16.187 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:14:16.203 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 82.4848ms
+2025-09-25 12:15:11.693 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 12:15:12.059 +04:00 [INF] Now listening on: https://localhost:58959
+2025-09-25 12:15:12.066 +04:00 [INF] Now listening on: http://localhost:58960
+2025-09-25 12:15:12.130 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 12:15:12.130 +04:00 [INF] Hosting environment: Development
+2025-09-25 12:15:12.131 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 12:15:12.184 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:15:12.184 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:15:12.310 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 137.9037ms
+2025-09-25 12:15:12.345 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 174.8905ms
+2025-09-25 12:15:12.379 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:15:12.433 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:15:12.444 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 65.9044ms
+2025-09-25 12:17:48.999 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/index.html - null null
+2025-09-25 12:17:49.101 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/index.html - 200 null text/html;charset=utf-8 101.4252ms
+2025-09-25 12:17:49.110 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:17:49.111 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:17:49.112 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 1.6799ms
+2025-09-25 12:17:49.138 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.9583ms
+2025-09-25 12:17:49.302 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:17:49.309 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/favicon-32x32.png - null null
+2025-09-25 12:17:49.324 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:17:49.327 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 24.8334ms
+2025-09-25 12:17:49.334 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/favicon-32x32.png - 200 628 image/png 25.4224ms
+2025-09-25 12:17:52.876 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/index.html - null null
+2025-09-25 12:17:52.881 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/index.html - 200 null text/html;charset=utf-8 5.1508ms
+2025-09-25 12:17:52.913 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:17:52.913 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:17:52.915 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 2.0321ms
+2025-09-25 12:17:52.926 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.0312ms
+2025-09-25 12:17:53.032 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:17:53.043 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:17:53.045 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 13.5425ms
+2025-09-25 12:17:53.761 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/index.html - null null
+2025-09-25 12:17:53.765 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/index.html - 200 null text/html;charset=utf-8 4.3283ms
+2025-09-25 12:17:53.784 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:17:53.787 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:17:53.788 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 0.802ms
+2025-09-25 12:17:53.794 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.77ms
+2025-09-25 12:17:53.827 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:17:53.833 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.Get (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:17:53.835 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 8.6343ms
+2025-09-25 12:18:09.900 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 12:18:10.247 +04:00 [INF] Now listening on: https://localhost:61285
+2025-09-25 12:18:10.254 +04:00 [INF] Now listening on: http://localhost:61287
+2025-09-25 12:18:10.308 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 12:18:10.309 +04:00 [INF] Hosting environment: Development
+2025-09-25 12:18:10.309 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 12:18:10.503 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:18:10.503 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:18:10.534 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 41.3524ms
+2025-09-25 12:18:10.569 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.4861ms
+2025-09-25 12:18:10.603 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:18:10.674 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:18:10.685 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 82.2913ms
+2025-09-25 12:19:39.079 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 12:19:39.459 +04:00 [INF] Now listening on: https://localhost:64946
+2025-09-25 12:19:39.494 +04:00 [INF] Now listening on: http://localhost:64948
+2025-09-25 12:19:39.546 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 12:19:39.546 +04:00 [INF] Hosting environment: Development
+2025-09-25 12:19:39.546 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 12:19:39.863 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:19:39.863 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:19:39.887 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 33.6909ms
+2025-09-25 12:19:39.928 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.8866ms
+2025-09-25 12:19:39.962 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:19:40.026 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:19:40.036 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 74.2032ms
+2025-09-25 12:47:20.848 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 12:47:21.244 +04:00 [INF] Now listening on: https://localhost:55660
+2025-09-25 12:47:21.253 +04:00 [INF] Now listening on: http://localhost:55662
+2025-09-25 12:47:21.306 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 12:47:21.307 +04:00 [INF] Hosting environment: Development
+2025-09-25 12:47:21.307 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 12:47:21.440 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:47:21.440 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:47:21.474 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 55.2191ms
+2025-09-25 12:47:21.514 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.7818ms
+2025-09-25 12:47:21.549 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:47:21.612 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET odata/Category" for actions - E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation), E_Commerce.Presentation.Controllers.CommerceAtributeControllers.CategoryController.GetCategory (E-Commerce.Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-25 12:47:21.623 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 74.0607ms
+2025-09-25 12:49:03.725 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 12:49:04.056 +04:00 [INF] Now listening on: https://localhost:60859
+2025-09-25 12:49:04.091 +04:00 [INF] Now listening on: http://localhost:60860
+2025-09-25 12:49:04.140 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 12:49:04.140 +04:00 [INF] Hosting environment: Development
+2025-09-25 12:49:04.140 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 12:49:04.283 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 12:49:04.283 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 12:49:04.343 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 70.3997ms
+2025-09-25 12:49:04.381 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.0992ms
+2025-09-25 12:49:04.417 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 12:49:04.514 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.5204ms
+2025-09-25 13:00:17.242 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-25 13:00:17.605 +04:00 [INF] Now listening on: https://localhost:65436
+2025-09-25 13:00:17.617 +04:00 [INF] Now listening on: http://localhost:65438
+2025-09-25 13:00:17.677 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-25 13:00:17.677 +04:00 [INF] Hosting environment: Development
+2025-09-25 13:00:17.677 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-25 13:00:25.923 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-25 13:00:25.923 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-25 13:00:25.953 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 42.3331ms
+2025-09-25 13:00:26.042 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.2369ms
+2025-09-25 13:00:26.074 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-25 13:00:26.148 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.4345ms

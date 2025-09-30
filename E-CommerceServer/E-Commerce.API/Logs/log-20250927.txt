@@ -1,0 +1,1229 @@
+2025-09-27 13:23:38.136 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-27 13:23:38.611 +04:00 [INF] Now listening on: https://localhost:59500
+2025-09-27 13:23:38.623 +04:00 [INF] Now listening on: http://localhost:59501
+2025-09-27 13:23:38.708 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-27 13:23:38.708 +04:00 [INF] Hosting environment: Development
+2025-09-27 13:23:38.708 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-27 13:23:39.577 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger - null null
+2025-09-27 13:23:39.755 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/index.html - null null
+2025-09-27 13:23:39.748 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger - 301 0 null 189.6963ms
+2025-09-27 13:23:39.855 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/index.html - 200 null text/html;charset=utf-8 100.5045ms
+2025-09-27 13:23:39.865 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/swagger-ui.css - null null
+2025-09-27 13:23:39.870 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/swagger-ui-bundle.js - null null
+2025-09-27 13:23:39.871 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/swagger-ui-standalone-preset.js - null null
+2025-09-27 13:23:39.870 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/index.css - null null
+2025-09-27 13:23:39.902 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/index.js - null null
+2025-09-27 13:23:39.935 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/index.js - 200 null application/javascript;charset=utf-8 63.1228ms
+2025-09-27 13:23:39.936 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-27 13:23:40.030 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-27 13:23:40.086 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/index.css - 200 152 text/css 216.2235ms
+2025-09-27 13:23:40.169 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 233.0753ms
+2025-09-27 13:23:40.171 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/swagger-ui.css - 200 23647 text/css 305.3262ms
+2025-09-27 13:23:40.171 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/swagger-ui-standalone-preset.js - 200 70860 text/javascript 300.0197ms
+2025-09-27 13:23:40.177 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/swagger-ui-bundle.js - 200 417980 text/javascript 306.4451ms
+2025-09-27 13:23:40.221 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 285.1676ms
+2025-09-27 13:23:40.360 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-27 13:23:40.392 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.5028ms
+2025-09-27 13:24:22.174 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 78
+2025-09-27 13:24:23.823 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:24:24.410 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:24:24.451 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:24:24.457 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:24:24.517 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:24:24.652 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:24:25.128 +04:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:24:25.139 +04:00 [WRN] The entity type 'IdentityUserRole' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:24:25.139 +04:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:24:25.140 +04:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:24:25.141 +04:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:24:25.306 +04:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:24:25.306 +04:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:24:25.907 +04:00 [INF] Executed DbCommand (51ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:24:26.138 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:24:26.282 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:24:26.300 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1778.9686ms.
+2025-09-27 13:24:26.307 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:24:26.321 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 1867.103ms
+2025-09-27 13:24:26.322 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:24:26.331 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 4157.0934ms
+2025-09-27 13:24:57.443 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:24:57.465 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:24:57.495 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:24:57.504 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:24:57.516 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:24:57.516 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 73.5192ms
+2025-09-27 13:25:13.725 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Category?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:25:13.731 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:25:13.732 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:25:13.733 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:25:13.733 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:25:13.733 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Category?PageNumber=1&PageSize=10 - 401 0 null 8.0966ms
+2025-09-27 13:25:41.715 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/UserRole?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:25:41.717 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:25:41.717 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:25:41.717 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:25:41.719 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:25:41.719 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/UserRole?PageNumber=1&PageSize=10 - 401 0 null 4.0175ms
+2025-09-27 13:25:50.901 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 78
+2025-09-27 13:25:50.906 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:25:50.907 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:25:50.908 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:25:50.910 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:25:50.912 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:25:50.971 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:25:51.061 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:25:51.171 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:25:51.190 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:25:51.191 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 220.2371ms.
+2025-09-27 13:25:51.192 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:25:51.193 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 281.0909ms
+2025-09-27 13:25:51.193 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:25:51.194 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 293.4506ms
+2025-09-27 13:26:08.324 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:26:08.326 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:26:08.328 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:26:08.328 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:26:08.328 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:26:08.328 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 4.095ms
+2025-09-27 13:26:30.351 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/createtoken - application/json 83
+2025-09-27 13:26:30.353 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:26:30.354 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:26:30.354 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:26:30.354 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:26:30.355 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/createtoken - 401 0 null 3.961ms
+2025-09-27 13:27:12.379 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 75
+2025-09-27 13:27:12.381 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:27:12.383 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:27:12.384 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:27:12.423 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:27:12.423 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:27:12.425 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:27:12.475 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:27:16.008 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 3584.5777ms
+2025-09-27 13:27:16.010 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:27:16.259 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ErrorLogs] ([CreatedAt], [ErrorMessage], [RequestMethod], [RequestPath], [StackTrace], [Timestamp], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-09-27 13:27:16.661 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 500 null application/json 4282.734ms
+2025-09-27 13:27:29.627 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 13:27:29.630 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:27:29.630 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:27:29.630 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:27:29.631 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:27:29.631 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:27:29.632 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:27:29.636 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:27:29.705 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:27:29.720 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:27:29.720 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 88.2566ms.
+2025-09-27 13:27:29.721 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:27:29.721 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 89.5913ms
+2025-09-27 13:27:29.721 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:27:29.721 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 94.3601ms
+2025-09-27 13:27:47.111 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:27:47.112 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:27:47.113 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:27:47.113 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:27:47.113 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:27:47.114 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 3.0326ms
+2025-09-27 13:28:09.833 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/CartItem?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:28:09.835 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:28:09.835 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:28:09.836 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:28:09.836 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:28:09.836 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/CartItem?PageNumber=1&PageSize=10 - 401 0 null 3.7502ms
+2025-09-27 13:31:24.247 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-27 13:31:24.589 +04:00 [INF] Now listening on: https://localhost:57959
+2025-09-27 13:31:24.595 +04:00 [INF] Now listening on: http://localhost:57961
+2025-09-27 13:31:24.651 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-27 13:31:24.652 +04:00 [INF] Hosting environment: Development
+2025-09-27 13:31:24.652 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-27 13:31:28.275 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-27 13:31:28.275 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-27 13:31:28.364 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 107.3339ms
+2025-09-27 13:31:28.401 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 147.9987ms
+2025-09-27 13:31:28.481 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-27 13:31:28.637 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 156.7807ms
+2025-09-27 13:31:59.777 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 13:31:59.910 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:32:00.110 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:32:00.141 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:32:00.147 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:32:00.198 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:32:00.394 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:32:01.111 +04:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:32:01.121 +04:00 [WRN] The entity type 'IdentityUserRole' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:32:01.122 +04:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:32:01.122 +04:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:32:01.123 +04:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:32:01.294 +04:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:32:01.295 +04:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:32:01.859 +04:00 [INF] Executed DbCommand (39ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:32:02.088 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:32:02.215 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:32:02.237 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2032.9147ms.
+2025-09-27 13:32:02.244 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:32:02.262 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 2117.8779ms
+2025-09-27 13:32:02.263 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:32:02.273 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 2495.9852ms
+2025-09-27 13:32:26.531 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:32:26.559 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:32:26.613 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:32:26.620 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:32:26.629 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:32:26.630 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 99.2525ms
+2025-09-27 13:36:38.530 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-27 13:36:38.995 +04:00 [INF] Now listening on: https://localhost:63288
+2025-09-27 13:36:39.000 +04:00 [INF] Now listening on: http://localhost:63290
+2025-09-27 13:36:39.057 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-27 13:36:39.058 +04:00 [INF] Hosting environment: Development
+2025-09-27 13:36:39.058 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-27 13:36:40.133 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-27 13:36:40.133 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-27 13:36:40.168 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 48.9976ms
+2025-09-27 13:36:40.192 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.278ms
+2025-09-27 13:36:40.236 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-27 13:36:40.312 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.8702ms
+2025-09-27 13:37:01.452 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 13:37:02.938 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:37:03.497 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:37:03.519 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:37:03.523 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:37:03.563 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:37:03.690 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:37:04.173 +04:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:37:04.183 +04:00 [WRN] The entity type 'IdentityUserRole' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:37:04.184 +04:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:37:04.184 +04:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:37:04.186 +04:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:37:04.356 +04:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:37:04.357 +04:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:37:04.930 +04:00 [INF] Executed DbCommand (63ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:37:05.198 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:37:05.322 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:37:05.341 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1774.5928ms.
+2025-09-27 13:37:05.350 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:37:05.366 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 1844.2076ms
+2025-09-27 13:37:05.367 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:37:05.377 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 3925.7789ms
+2025-09-27 13:39:34.408 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/createtoken - application/json 81
+2025-09-27 13:39:34.439 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:39:34.461 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:39:34.466 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:39:34.475 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:39:34.475 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/createtoken - 401 0 null 67.2026ms
+2025-09-27 13:41:30.707 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 13:41:30.713 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:41:30.713 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:41:30.714 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:41:30.717 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:41:30.718 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:41:30.721 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:41:30.849 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:41:30.961 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:41:30.982 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:41:30.983 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 261.3499ms.
+2025-09-27 13:41:30.985 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:41:30.986 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 267.7953ms
+2025-09-27 13:41:30.986 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:41:30.987 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 280.0277ms
+2025-09-27 13:43:19.352 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 13:43:19.354 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:43:19.357 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:43:19.357 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:43:19.400 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:43:19.401 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:43:19.402 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:43:19.458 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:43:19.586 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:43:19.600 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:43:19.601 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 198.3833ms.
+2025-09-27 13:43:19.601 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:43:19.601 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 200.4936ms
+2025-09-27 13:43:19.602 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:43:19.602 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 251.1454ms
+2025-09-27 13:48:51.532 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-27 13:48:51.917 +04:00 [INF] Now listening on: https://localhost:51461
+2025-09-27 13:48:51.924 +04:00 [INF] Now listening on: http://localhost:51463
+2025-09-27 13:48:51.981 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-27 13:48:51.981 +04:00 [INF] Hosting environment: Development
+2025-09-27 13:48:51.981 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-27 13:48:52.878 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-27 13:48:52.878 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-27 13:48:52.917 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 53.6957ms
+2025-09-27 13:48:52.940 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.8441ms
+2025-09-27 13:48:52.976 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-27 13:48:53.069 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.9096ms
+2025-09-27 13:50:39.672 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:7050/api/Auth/login - application/json 65
+2025-09-27 13:50:39.832 +04:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: '6CP5FgvYpVLypROn9LNd3u9y2QATZOxG70e32njr_PM'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-09-27 13:50:39.859 +04:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: '6CP5FgvYpVLypROn9LNd3u9y2QATZOxG70e32njr_PM'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-09-27 13:50:40.060 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:50:40.090 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:50:40.098 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:50:40.155 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:50:40.280 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 13:50:40.758 +04:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:50:40.769 +04:00 [WRN] The entity type 'IdentityUserRole' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:50:40.769 +04:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:50:40.770 +04:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:50:40.771 +04:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 13:50:40.949 +04:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:50:40.949 +04:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 13:50:41.490 +04:00 [INF] Executed DbCommand (38ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:50:41.682 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:50:41.878 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:50:41.900 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1740.1259ms.
+2025-09-27 13:50:41.910 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:50:41.936 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 1840.6018ms
+2025-09-27 13:50:41.938 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:50:41.954 +04:00 [INF] Request finished HTTP/1.1 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 2281.5867ms
+2025-09-27 13:51:51.551 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7050/api/Auth/ - multipart/form-data; boundary=--------------------------977700662295803461854836 275
+2025-09-27 13:51:51.557 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:51:51.559 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:51:51.568 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:51:51.580 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:51:51.580 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7050/api/Auth/ - 401 0 null 29.5113ms
+2025-09-27 13:52:14.049 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7050/api/Auth/ - multipart/form-data; boundary=--------------------------401177727496606536962515 275
+2025-09-27 13:52:14.053 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:52:14.053 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:52:14.054 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:52:14.054 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:52:14.055 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7050/api/Auth/ - 401 0 null 5.4364ms
+2025-09-27 13:52:15.479 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7050/api/Auth/ - multipart/form-data; boundary=--------------------------143583330449110781781307 275
+2025-09-27 13:52:15.481 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:52:15.482 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:52:15.482 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:52:15.482 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:52:15.483 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7050/api/Auth/ - 401 0 null 3.4652ms
+2025-09-27 13:52:35.684 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7050/api/Auth/ - null null
+2025-09-27 13:52:35.685 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:52:35.686 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:52:35.686 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:52:35.686 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:52:35.687 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7050/api/Auth/ - 401 0 null 2.4565ms
+2025-09-27 13:52:37.884 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7050/api/Auth/ - null null
+2025-09-27 13:52:37.887 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:52:37.888 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:52:37.888 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:52:37.889 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:52:37.889 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7050/api/Auth/ - 401 0 null 4.5223ms
+2025-09-27 13:53:08.501 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 13:53:08.505 +04:00 [INF] CORS policy execution successful.
+2025-09-27 13:53:08.508 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:53:08.509 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 13:53:08.514 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 13:53:08.627 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 13:53:08.733 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 13:53:08.756 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 13:53:08.757 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 242.8472ms.
+2025-09-27 13:53:08.757 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 13:53:08.759 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 249.7776ms
+2025-09-27 13:53:08.759 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 13:53:08.760 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 259.36ms
+2025-09-27 13:53:58.607 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:53:58.608 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:53:58.609 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:53:58.609 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:53:58.609 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:53:58.609 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.8365ms
+2025-09-27 13:54:41.426 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:41.428 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:41.428 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:41.429 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:41.429 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:41.429 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 3.467ms
+2025-09-27 13:54:43.237 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:43.239 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:43.239 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:43.240 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:43.240 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:43.240 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.5216ms
+2025-09-27 13:54:43.388 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:43.389 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:43.390 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:43.390 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:43.390 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:43.390 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.4235ms
+2025-09-27 13:54:43.541 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:43.542 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:43.543 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:43.543 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:43.543 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:43.543 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.1344ms
+2025-09-27 13:54:43.693 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:43.694 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:43.694 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:43.694 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:43.694 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:43.695 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.3047ms
+2025-09-27 13:54:43.833 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:43.834 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:43.834 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:43.835 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:43.835 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:43.835 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.3388ms
+2025-09-27 13:54:44.010 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:44.011 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:44.012 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:44.012 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:44.012 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:44.012 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.7788ms
+2025-09-27 13:54:44.156 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:44.158 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:44.159 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:44.159 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:44.159 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:44.160 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 3.6479ms
+2025-09-27 13:54:44.285 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:44.285 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:44.286 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:44.286 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:44.286 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:44.286 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 1.6259ms
+2025-09-27 13:54:44.424 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:44.425 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:44.425 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:44.425 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:44.425 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:44.426 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 1.9258ms
+2025-09-27 13:54:44.579 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:44.580 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:44.581 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:44.581 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:44.581 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:44.581 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.4063ms
+2025-09-27 13:54:44.705 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:44.705 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:44.706 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:44.706 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:44.706 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:44.706 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 1.3129ms
+2025-09-27 13:54:44.859 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:44.860 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:44.860 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:44.860 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:44.860 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:44.861 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 1.8022ms
+2025-09-27 13:54:45.018 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:45.020 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:45.020 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:45.020 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:45.020 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:45.020 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.0754ms
+2025-09-27 13:54:45.161 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:45.162 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:45.163 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:45.163 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:45.163 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:45.163 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.3287ms
+2025-09-27 13:54:45.323 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:45.324 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:45.324 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:45.324 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:45.324 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:45.324 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 1.5106ms
+2025-09-27 13:54:45.541 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 13:54:45.542 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 13:54:45.542 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 13:54:45.542 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 13:54:45.542 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 13:54:45.542 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 1.4952ms
+2025-09-27 14:04:21.413 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 78
+2025-09-27 14:04:21.415 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:04:21.416 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:04:21.418 +04:00 [INF] CORS policy execution successful.
+2025-09-27 14:04:21.432 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:04:21.432 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 14:04:21.433 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 14:04:21.534 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 14:04:21.644 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 14:04:21.656 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 14:04:21.657 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 222.9576ms.
+2025-09-27 14:04:21.657 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 14:04:21.657 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 225.1006ms
+2025-09-27 14:04:21.658 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:04:21.658 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 244.827ms
+2025-09-27 14:04:59.110 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:04:59.113 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:04:59.113 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:04:59.114 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 14:04:59.114 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 14:04:59.117 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 6.4922ms
+2025-09-27 14:05:10.626 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Cart?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:05:10.629 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:05:10.630 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:05:10.630 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 14:05:10.630 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 14:05:10.630 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Cart?PageNumber=1&PageSize=10 - 401 0 null 3.7675ms
+2025-09-27 14:11:48.151 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 78
+2025-09-27 14:11:48.152 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:11:48.152 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:11:48.152 +04:00 [INF] CORS policy execution successful.
+2025-09-27 14:11:48.153 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:11:48.153 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 14:11:48.154 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 14:11:48.218 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 14:11:48.275 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 14:11:48.282 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 14:11:48.283 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 128.9537ms.
+2025-09-27 14:11:48.283 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 14:11:48.283 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 130.165ms
+2025-09-27 14:11:48.283 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:11:48.284 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 133.148ms
+2025-09-27 14:29:41.647 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-27 14:29:42.266 +04:00 [INF] Now listening on: https://localhost:61606
+2025-09-27 14:29:42.276 +04:00 [INF] Now listening on: http://localhost:61608
+2025-09-27 14:29:42.364 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-27 14:29:42.365 +04:00 [INF] Hosting environment: Development
+2025-09-27 14:29:42.366 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-27 14:29:42.463 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-27 14:29:42.463 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-27 14:29:42.518 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 71.8931ms
+2025-09-27 14:29:42.577 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 134.6776ms
+2025-09-27 14:29:42.645 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-27 14:29:42.768 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.1291ms
+2025-09-27 14:29:51.676 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:29:51.770 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 14:29:51.778 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 14:29:51.778 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 102.7056ms
+2025-09-27 14:30:16.339 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 14:30:16.364 +04:00 [INF] CORS policy execution successful.
+2025-09-27 14:30:16.565 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:30:16.599 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 14:30:16.605 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 14:30:16.664 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 14:30:16.913 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 14:30:17.739 +04:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:30:17.753 +04:00 [WRN] The entity type 'IdentityUserRole' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:30:17.754 +04:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:30:17.755 +04:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:30:17.756 +04:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:30:18.045 +04:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 14:30:18.046 +04:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 14:30:18.995 +04:00 [INF] Executed DbCommand (55ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 14:30:19.389 +04:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 14:30:19.777 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 14:30:19.813 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3141.0629ms.
+2025-09-27 14:30:19.829 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 14:30:19.857 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 3252.6425ms
+2025-09-27 14:30:19.859 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:30:19.874 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 3535.3412ms
+2025-09-27 14:30:40.115 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:30:40.132 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:30:40.157 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:30:40.157 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 14:30:40.160 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 14:30:40.160 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 45.8809ms
+2025-09-27 14:30:44.214 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:30:44.216 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:30:44.216 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:30:44.216 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 14:30:44.217 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 14:30:44.217 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 3.1069ms
+2025-09-27 14:30:44.595 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:30:44.596 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:30:44.596 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:30:44.596 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 14:30:44.597 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 14:30:44.597 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 2.168ms
+2025-09-27 14:30:58.871 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 14:30:58.873 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:30:58.873 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:30:58.874 +04:00 [INF] CORS policy execution successful.
+2025-09-27 14:30:58.876 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:30:58.877 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 14:30:58.879 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 14:30:58.985 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 14:30:59.073 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 14:30:59.084 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 14:30:59.085 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 205.4047ms.
+2025-09-27 14:30:59.086 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 14:30:59.087 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 209.8572ms
+2025-09-27 14:30:59.087 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:30:59.088 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 216.9967ms
+2025-09-27 14:31:21.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:31:21.384 +04:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-09-27 14:31:21.384 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-09-27 14:31:21.384 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-27 14:31:21.384 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-27 14:31:21.385 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 401 0 null 1.9928ms
+2025-09-27 14:36:13.684 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-27 14:36:14.070 +04:00 [INF] Now listening on: https://localhost:57564
+2025-09-27 14:36:14.081 +04:00 [INF] Now listening on: http://localhost:57566
+2025-09-27 14:36:14.183 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-27 14:36:14.183 +04:00 [INF] Hosting environment: Development
+2025-09-27 14:36:14.183 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-27 14:36:14.264 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-27 14:36:14.264 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-27 14:36:14.309 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 55.4944ms
+2025-09-27 14:36:14.350 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.4396ms
+2025-09-27 14:36:14.399 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-27 14:36:14.482 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.1232ms
+2025-09-27 14:36:38.847 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-27 14:36:38.928 +04:00 [INF] CORS policy execution successful.
+2025-09-27 14:36:39.131 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:36:39.162 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 14:36:39.168 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 14:36:39.216 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 14:36:39.365 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-27 14:36:39.816 +04:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:36:39.824 +04:00 [WRN] The entity type 'IdentityUserRole' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:36:39.824 +04:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:36:39.825 +04:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:36:39.826 +04:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-27 14:36:39.978 +04:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 14:36:39.978 +04:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-27 14:36:40.639 +04:00 [INF] Executed DbCommand (66ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-27 14:36:40.856 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-27 14:36:40.973 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-27 14:36:40.990 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1768.9669ms.
+2025-09-27 14:36:40.998 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.UserAttributeFeatures.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-27 14:36:41.016 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 1851.1057ms
+2025-09-27 14:36:41.018 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-27 14:36:41.028 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 2180.8484ms
+2025-09-27 14:37:02.844 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - null null
+2025-09-27 14:37:02.892 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.GetAll (E-Commerce.Presentation)'
+2025-09-27 14:37:02.901 +04:00 [INF] Route matched with {action = "GetAll", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(E_Commerce.Domain.DTOs.PageParameters, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-27 14:37:02.912 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.GetAll (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-27 14:37:03.005 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [AspNetUsers] AS [a]
+2025-09-27 14:37:03.014 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-09-27 14:37:03.015 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-09-27 14:37:03.027 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-09-27 14:37:03.046 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.GetAll (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 133.4163ms.
+2025-09-27 14:37:03.046 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Services.PaginationService.PagedList`1[[E_Commerce.Domain.DTOs.UserParameters, E-Commerce.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-27 14:37:03.052 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.GetAll (E-Commerce.Presentation) in 150.4617ms
+2025-09-27 14:37:03.052 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.GetAll (E-Commerce.Presentation)'
+2025-09-27 14:37:03.052 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Auth?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 209.1851ms

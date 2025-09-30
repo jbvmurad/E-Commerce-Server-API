@@ -1,0 +1,12 @@
+2025-09-28 01:02:52.845 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-28 01:02:53.351 +04:00 [INF] Now listening on: https://localhost:50332
+2025-09-28 01:02:53.359 +04:00 [INF] Now listening on: http://localhost:50334
+2025-09-28 01:02:53.466 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-28 01:02:53.467 +04:00 [INF] Hosting environment: Development
+2025-09-28 01:02:53.467 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-CommerceServer\E-Commerce.API
+2025-09-28 01:02:55.053 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-28 01:02:55.053 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-28 01:02:55.100 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 66.9033ms
+2025-09-28 01:02:55.199 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 168.6215ms
+2025-09-28 01:02:55.253 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-28 01:02:55.484 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 231.5714ms

@@ -1,0 +1,129 @@
+2025-09-23 00:30:54.855 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-23 00:30:55.301 +04:00 [INF] Now listening on: https://localhost:56911
+2025-09-23 00:30:55.311 +04:00 [INF] Now listening on: http://localhost:56913
+2025-09-23 00:30:55.398 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 00:30:55.399 +04:00 [INF] Hosting environment: Development
+2025-09-23 00:30:55.399 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-23 00:30:55.548 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-23 00:30:55.548 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 00:30:55.599 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 66.725ms
+2025-09-23 00:30:56.350 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 820.7987ms
+2025-09-23 00:30:56.386 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-23 00:30:56.488 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.3208ms
+2025-09-23 00:31:15.767 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Product?PageNumber=1&PageSize=10 - null null
+2025-09-23 00:31:15.885 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-23 00:31:15.892 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-23 00:31:15.893 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Product?PageNumber=1&PageSize=10 - 401 0 null 126.482ms
+2025-09-23 00:31:41.972 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7050/api/Auth/login - application/json 62
+2025-09-23 00:31:42.016 +04:00 [INF] CORS policy execution successful.
+2025-09-23 00:31:42.308 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-23 00:31:42.347 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(E_Commerce.Application.Features.AuthFeatures.Commands.Login.LoginCommand, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.UserControllers.AuthController (E-Commerce.Presentation).
+2025-09-23 00:31:42.354 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-23 00:31:42.412 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-23 00:31:42.576 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-23 00:31:43.198 +04:00 [WRN] The entity type 'IdentityUserLogin' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-23 00:31:43.207 +04:00 [WRN] The entity type 'IdentityUserRole' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-23 00:31:43.208 +04:00 [WRN] The entity type 'IdentityUserClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-23 00:31:43.209 +04:00 [WRN] The entity type 'IdentityUserToken' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-23 00:31:43.210 +04:00 [WRN] The entity type 'IdentityRoleClaim' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2025-09-23 00:31:43.421 +04:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Cart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-23 00:31:43.422 +04:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-23 00:31:44.012 +04:00 [INF] Executed DbCommand (37ms) [Parameters=[@__request_UserNameOrEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__request_UserNameOrEmail_0 OR [a].[Email] = @__request_UserNameOrEmail_0
+2025-09-23 00:31:44.211 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpires], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-23 00:31:44.323 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@p18='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p19='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (Size = 100), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = DateTime2), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [FirstName] = @p4, [LastName] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpires] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2025-09-23 00:31:44.342 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1925.3346ms.
+2025-09-23 00:31:44.351 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Features.AuthFeatures.Commands.Login.LoginCommandResponse'.
+2025-09-23 00:31:44.366 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation) in 2016.1901ms
+2025-09-23 00:31:44.367 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.UserControllers.AuthController.Login (E-Commerce.Presentation)'
+2025-09-23 00:31:44.376 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7050/api/Auth/login - 200 null application/json; charset=utf-8 2404.6968ms
+2025-09-23 00:32:09.307 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/api/Product?PageNumber=1&PageSize=10 - null null
+2025-09-23 00:32:09.417 +04:00 [INF] Executing endpoint 'E_Commerce.Presentation.Controllers.CommerceAtributeControllers.ProductController.GetAll (E-Commerce.Presentation)'
+2025-09-23 00:32:09.430 +04:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(E_Commerce.Domain.DTOs.PageParameters, System.Threading.CancellationToken) on controller E_Commerce.Presentation.Controllers.CommerceAtributeControllers.ProductController (E-Commerce.Presentation).
+2025-09-23 00:32:09.449 +04:00 [INF] Executing action method E_Commerce.Presentation.Controllers.CommerceAtributeControllers.ProductController.GetAll (E-Commerce.Presentation) - Validation state: "Valid"
+2025-09-23 00:32:09.617 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Product] AS [p]
+2025-09-23 00:32:09.634 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-09-23 00:32:09.635 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-09-23 00:32:09.667 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Status], [p].[StockQuantity], [p].[UpdatedAt]
+FROM [Product] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-09-23 00:32:09.670 +04:00 [INF] Executed action method E_Commerce.Presentation.Controllers.CommerceAtributeControllers.ProductController.GetAll (E-Commerce.Presentation), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 220.9678ms.
+2025-09-23 00:32:09.672 +04:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.Application.Services.PaginationService.PagedList`1[[E_Commerce.Domain.Entities.CommerceAttributeEntities.Product, E-Commerce.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-23 00:32:09.719 +04:00 [INF] Executed action E_Commerce.Presentation.Controllers.CommerceAtributeControllers.ProductController.GetAll (E-Commerce.Presentation) in 288.6092ms
+2025-09-23 00:32:09.719 +04:00 [INF] Executed endpoint 'E_Commerce.Presentation.Controllers.CommerceAtributeControllers.ProductController.GetAll (E-Commerce.Presentation)'
+2025-09-23 00:32:09.720 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/api/Product?PageNumber=1&PageSize=10 - 200 null application/json; charset=utf-8 412.7069ms
+2025-09-23 00:42:20.438 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-23 00:42:20.841 +04:00 [INF] Now listening on: https://localhost:51554
+2025-09-23 00:42:20.847 +04:00 [INF] Now listening on: http://localhost:51556
+2025-09-23 00:42:20.905 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 00:42:20.905 +04:00 [INF] Hosting environment: Development
+2025-09-23 00:42:20.905 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-23 00:42:21.234 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-23 00:42:21.234 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 00:42:21.289 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 71.7797ms
+2025-09-23 00:42:21.324 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.7646ms
+2025-09-23 00:42:21.356 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-23 00:42:21.420 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.0259ms
+2025-09-23 09:53:02.660 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-23 09:53:03.027 +04:00 [INF] Now listening on: https://localhost:50272
+2025-09-23 09:53:03.033 +04:00 [INF] Now listening on: http://localhost:50274
+2025-09-23 09:53:03.107 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 09:53:03.108 +04:00 [INF] Hosting environment: Development
+2025-09-23 09:53:03.108 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-23 09:53:13.373 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 09:53:13.373 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-23 09:53:13.439 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 80.1937ms
+2025-09-23 09:53:13.505 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.8468ms
+2025-09-23 09:53:13.538 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-23 09:53:13.610 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.6388ms
+2025-09-23 09:56:27.641 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-23 09:56:28.066 +04:00 [INF] Now listening on: https://localhost:7050
+2025-09-23 09:56:28.069 +04:00 [INF] Now listening on: http://localhost:5239
+2025-09-23 09:56:28.156 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 09:56:28.158 +04:00 [INF] Hosting environment: Development
+2025-09-23 09:56:28.159 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-23 09:56:28.721 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 09:56:28.721 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-23 09:56:28.778 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 79.2107ms
+2025-09-23 09:56:28.842 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 146.1806ms
+2025-09-23 09:56:28.884 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-23 09:56:28.973 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.0607ms
+2025-09-23 09:58:18.298 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-23 09:58:18.706 +04:00 [INF] Now listening on: https://localhost:61075
+2025-09-23 09:58:18.742 +04:00 [INF] Now listening on: http://localhost:61076
+2025-09-23 09:58:18.809 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 09:58:18.809 +04:00 [INF] Hosting environment: Development
+2025-09-23 09:58:18.810 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-23 09:58:18.907 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-23 09:58:18.907 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 09:58:18.939 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 43.1233ms
+2025-09-23 09:58:18.978 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.9537ms
+2025-09-23 09:58:19.020 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-23 09:58:19.091 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.8613ms
+2025-09-23 10:02:13.939 +04:00 [INF] User profile is available. Using 'C:\Users\Murad\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-23 10:02:14.321 +04:00 [INF] Now listening on: https://localhost:62493
+2025-09-23 10:02:14.329 +04:00 [INF] Now listening on: http://localhost:62495
+2025-09-23 10:02:14.380 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 10:02:14.380 +04:00 [INF] Hosting environment: Development
+2025-09-23 10:02:14.380 +04:00 [INF] Content root path: C:\Users\Murad\Desktop\E-Commerce\E-Commerce\E-Commerce.API
+2025-09-23 10:02:15.701 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 10:02:15.701 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/_vs/browserLink - null null
+2025-09-23 10:02:15.738 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 55.326ms
+2025-09-23 10:02:15.760 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.0202ms
+2025-09-23 10:02:15.797 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - null null
+2025-09-23 10:02:15.873 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7050/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.8872ms

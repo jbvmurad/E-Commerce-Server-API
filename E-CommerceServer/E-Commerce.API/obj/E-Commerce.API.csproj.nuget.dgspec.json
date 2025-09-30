@@ -1,0 +1,688 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.API\\E-Commerce.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.API\\E-Commerce.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.API\\E-Commerce.API.csproj",
+        "projectName": "E-Commerce.API",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.API\\E-Commerce.API.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj"
+              },
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\E-Commerce.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\E-Commerce.Infrastructure.csproj"
+              },
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Persistance\\E-Commerce.Persistance.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Persistance\\E-Commerce.Persistance.csproj"
+              },
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj"
+              },
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.ServiceDefaults\\E-Commerce.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.ServiceDefaults\\E-Commerce.ServiceDefaults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "TS.EntityFrameworkCore.GenericRepository": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj",
+        "projectName": "E-Commerce.Application",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\E-Commerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\E-Commerce.Domain.csproj",
+        "projectName": "E-Commerce.Domain",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\E-Commerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "TS.EntityFrameworkCore.GenericRepository": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\E-Commerce.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\E-Commerce.Infrastructure.csproj",
+        "projectName": "E-Commerce.Infrastructure",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\E-Commerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentEmail.Core": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "FluentEmail.Smtp": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Persistance\\E-Commerce.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Persistance\\E-Commerce.Persistance.csproj",
+        "projectName": "E-Commerce.Persistance",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Persistance\\E-Commerce.Persistance.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj"
+              },
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\E-Commerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Domain\\E-Commerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
+        "projectName": "E-Commerce.Presentation",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Presentation\\E-Commerce.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Application\\E-Commerce.Application.csproj"
+              },
+              "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\E-Commerce.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.Infrastructure\\E-Commerce.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.ServiceDefaults\\E-Commerce.ServiceDefaults.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.ServiceDefaults\\E-Commerce.ServiceDefaults.csproj",
+        "projectName": "E-Commerce.ServiceDefaults",
+        "projectPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.ServiceDefaults\\E-Commerce.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\Murad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad\\Desktop\\E-Commerce\\E-CommerceServer\\E-Commerce.ServiceDefaults\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[9.9.0, )"
+            },
+            "Microsoft.Extensions.ServiceDiscovery": {
+              "target": "Package",
+              "version": "[9.4.2, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>E_Commerce.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.0.1" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="8.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="9.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="9.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="9.0.4" />
+    <PackageReference Include="TS.EntityFrameworkCore.GenericRepository" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-Commerce.Application\E-Commerce.Application.csproj" />
+    <ProjectReference Include="..\E-Commerce.Infrastructure\E-Commerce.Infrastructure.csproj" />
+    <ProjectReference Include="..\E-Commerce.Persistance\E-Commerce.Persistance.csproj" />
+    <ProjectReference Include="..\E-Commerce.Presentation\E-Commerce.Presentation.csproj" />
+    <ProjectReference Include="..\E-Commerce.ServiceDefaults\E-Commerce.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>
